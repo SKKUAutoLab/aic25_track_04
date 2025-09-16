@@ -1,0 +1,20 @@
+FROM nvidia/cuda:12.8.0-devel-ubuntu22.04
+
+# Set working directory
+WORKDIR /team15
+
+# Copy the necessary files
+COPY . .
+# COPY /data /team15/data
+RUN chmod -R 777 /team15
+
+# Setup environment
+RUN apt-get update && apt-get install --no-install-recommends --no-install-suggests -y curl
+RUN apt-get install -y unzip
+
+# Setup conda environment
+COPY --from=continuumio/anaconda3 /opt/conda /opt/conda
+ENV PATH=/opt/conda/bin:$PATH
+RUN conda init bash
+RUN cd /team15/ && chmod +x ./install.sh
+RUN cd /team15/ && /bin/bash ./install.sh

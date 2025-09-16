@@ -1,0 +1,1 @@
+cp -r ./tensorrtlib/tensorrt* /usr/lib/python3.10/dist-packages/

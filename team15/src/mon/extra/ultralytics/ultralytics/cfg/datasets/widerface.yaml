@@ -1,0 +1,14 @@
+# WiderFace dataset:
+#   - train: 12,876 images
+#   - val  :  3,226 images
+#   - test : 16,097 images
+
+# Train/val/test sets as 1) dir: path/to/imgs, 2) file: path/to/imgs.txt, or 3) list: [path/to/imgs1, path/to/imgs2, ..]
+path : data/widerface                   # dataset root dir
+train: train/image                      # train images (relative to 'path')
+val  : val/image                        # val images (relative to 'path')
+test : test/image                       # test images (optional)
+
+# Classes
+names:
+  0: face

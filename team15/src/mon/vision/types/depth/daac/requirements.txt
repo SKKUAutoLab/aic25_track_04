@@ -1,0 +1,14 @@
+numpy==1.26.4
+opencv-python==4.9.0.80
+Pillow==10.3.0
+matplotlib==3.8.4
+scikit-image==0.24.0
+scikit-learn==1.6.1
+pandas==2.2.3
+scipy==1.13.0
+tqdm==4.66.4
+PyYAML==6.0.1
+tensorboardX==2.6.2.2
+h5py==3.11.0
+imagecorruptions==1.1.2
+
