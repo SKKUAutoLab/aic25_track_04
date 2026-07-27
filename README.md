@@ -3,7 +3,7 @@
 🥈 2nd Place Solution of the [9th AI City Challenge, Track 4](https://www.aicitychallenge.org/), ICCV 2025.
 
 📄 [Paper](https://openaccess.thecvf.com/content/ICCV2025W/AICity/papers/Pham_Data_Augmentation_Is_All_You_Need_For_Robust_Fisheye_Object_ICCVW_2025_paper.pdf)
-📦 [Code](https://github.com/SKKUAutoLab/aic25_track_04)
+📦 [Code](https://github.com/SKKUAutoLab/aic25_fisheye8k)
 
 ![](ranking_track4.png)
 
